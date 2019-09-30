@@ -1,0 +1,148 @@
+/* Colours and fonts */
+
+body {
+  background-color: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+}
+
+h1, h2, h3 {
+  font-family: 'Lora', serif;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #A4D1C8;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+h3 {
+  color: #D4D7DD;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+a{
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size:16px;
+}
+
+a:hover {
+  color: black;
+}
+
+/* Custom design with class */
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    max-width: 700px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    max-width: 550px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    max-width: 400px;
+    margin: auto;
+  }
+}
+
+.card-white {
+  background: white;
+  padding: 40px;
+  margin: 50px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #A4D1C8;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: #575F7D;
+  color: white;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 35px;
+  color: rgb(210,210,210);
+}
+
+.list-inline i:hover {
+  color: #575F7D;
+}
+
+/* Design adjustments with id */
+
+#intro p {
+  margin-bottom: 30px;
+}
+
+.card-blue {
+  float: left;
+  background-color: #35495E;
+  color: white;
+  padding: 15px 15px;
+  width: 100px;
+  border-radius: 4px;
+  /*height: 200px;*/
+  margin: 3px 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.card-blue:hover {
+  font-size: 18px;
+  width: 110px;
+}
+
+.newBox {
+  overflow: hidden;
+}
+
+
+
+
+
